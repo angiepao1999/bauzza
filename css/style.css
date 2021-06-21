@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    font-family:'PT Serif', serif;
+}
+
+.container-general{
+    background: linear-gradient(to right, #E7BC38 0%,#E7BC38 50%, #C68F11 50%,#C68F11 100%);
+    width: 100%;
+}
+
+.container-navbar{
+    padding: 10px;
+        
+}
+
+.navbar-logo{
+    width: 100px;
+}
