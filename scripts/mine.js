@@ -4,7 +4,6 @@ function changeDesign(array,color){
     for(i = 0; i < array.length; i++){
         array[i].style.color = color;
     }
-
 }
 
 showSlides(slideIndex);
@@ -20,11 +19,9 @@ function currentSlide(n){
 function showSlides(n){
     var i;
     var container = document.getElementsByClassName("container-general")[0];
-    var menu = document.getElementsByClassName("navbar-navbar");
-    var img = document.getElementsByClassName("chair-one");
+    var menu = document.getElementsByTagName("h3");
     var title = container.getElementsByTagName("h2");
     var text = container.getElementsByTagName("p");
-    var button = document.getElementsByClassName("button");
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
    
@@ -36,18 +33,17 @@ function showSlides(n){
         container.style.background = "linear-gradient(to right, #599B96 0%,#599B96 50%, #42817E 50%,#42817E 100%)"; 
         changeDesign(title,"#fff")
         changeDesign(text,"#fff")
-        changeDesign(menu,"#fff")
-        
+        changeDesign(menu,"#fff")    
+
         
     }else{
         container.style.background = "linear-gradient(to right, #E7BC38 0%,#E7BC38 50%, #C68F11 50%,#C68F11 100%)";
         changeDesign(title, "#000")
         changeDesign(text,"#000")
         changeDesign(menu,"#000")
-        
-
     }
 
+    
     if (n < 1){
         slideIndex = slides.length
     }
