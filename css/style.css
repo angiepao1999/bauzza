@@ -11,7 +11,7 @@ ul{
     list-style: none;
 }
 
-.navbar-navbar li>a{
+.navbar-navbar li > a{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #000;
@@ -111,6 +111,11 @@ ul{
     margin: 0 50%;
 }
 
+.slide-arrow{
+    margin-left: 90%;
+      
+}
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -120,8 +125,6 @@ ul{
     padding: 16px;
     margin-top: -22px;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -131,28 +134,22 @@ ul{
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    
 }
 
 /* The dots/bullets/indicators */
 .dot {
     cursor: pointer;
-    height: 8px;
-    width: 8px;
-    margin: 0 1px;
+    height: 7px;
+    width: 7px;
     background-color: #fff;
     opacity: 50%;
     border-radius: 50%;
     display: inline-block;
-
     transition: background-color 0.6s ease;
 }
   
-  .active, .dot:hover {
+.active, .dot:hover {
     background-color: #ffff;
     opacity: 100%;
 }

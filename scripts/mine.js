@@ -37,14 +37,21 @@ function showSlides(n){
 
         buttonSlide.style.backgroundColor = "#68CBCC";
         buttonSlide.style.boxShadow = "0 3px 5px 0 #68CBCC, 0 3px 5px 0 #68CBCC"
+        buttonSlide.style.color = "white"
+        buttonSlide.style.margin = "20px 5px 0 20%"
+        
+
     }else{
         container.style.background = "linear-gradient(to right, #E7BC38 0%,#E7BC38 50%, #C68F11 50%,#C68F11 100%)";
-        changeDesign(title, "#000")
+        changeDesign(title,"#000")
         changeDesign(text,"#000")
         changeDesign(menu,"#000")
 
         buttonSlide.style.backgroundColor = "#C68F11"
         buttonSlide.style.boxShadow = "0 3px 5px 0 #C68F11, 0 3px 5px 0 #C68F11"
+        buttonSlide.style.color = "black"
+        buttonSlide.style.margin = "20px 5px 0 25%"
+        
     }
     
     if (n < 1)
