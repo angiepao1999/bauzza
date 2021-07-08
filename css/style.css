@@ -100,20 +100,15 @@ ul{
 }
 
 .container-socialmedia{
-    padding-top: 30px;
+    padding: 5% 0 1px 0;
 }
 
 .socialmedia li{
     margin: 30px 0 30px 0;
 }
 
-.arrow{
-    margin: 0 50%;
-}
-
 .slide-arrow{
-    margin-left: 90%;
-      
+    margin-left: 90%;  
 }
 
 /* Next & previous buttons */
@@ -121,9 +116,9 @@ ul{
     cursor: pointer;
     position: absolute;
     top: 50%;
+    right: 73px;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
+    transform: rotate(90deg);
     color: white;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
@@ -132,9 +127,8 @@ ul{
   
 /* Position the "next button" to the right */
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-    
+    right:95px;
+    top:55%;   
 }
 
 /* The dots/bullets/indicators */
@@ -143,9 +137,10 @@ ul{
     height: 7px;
     width: 7px;
     background-color: #fff;
+    margin:2px;
     opacity: 50%;
     border-radius: 50%;
-    display: inline-block;
+    display: inline-table;
     transition: background-color 0.6s ease;
 }
   
