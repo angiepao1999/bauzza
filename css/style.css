@@ -150,3 +150,82 @@ ul{
 }
 
 /* header-end */
+
+/* new in store section */
+.new{
+    background-color: #F4F4F4;
+}
+
+.table, td, th{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;    
+}
+
+/* Final new in store section */
+
+
+/* Clearance Deals */
+.deals{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.deals h3{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;  
+   
+}
+.deals img{
+    width: 20%;
+    padding: 25px;   
+}
+
+.button4 {
+    background-color: white;
+    color: #464159;
+    border: 2px solid #464159;
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button4:hover {
+    background-color: #464159;
+    color:#fff;
+}
+
+/* Final Clearance Deals */
+
+/* Inspiration ideas */
+
+.ideas{
+    padding: 50px 0px;
+    text-align: center;  
+}
+
+.ideas h3{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;    
+}
+
+.insp-img1{
+    width: 67%;
+    height: auto;
+}
+.insp-img2{
+    width: 30%;
+    height: auto;
+}
+.insp-img3{
+    width: 30%;
+    height: auto;
+}
+.insp-img4{
+    width: 67%;
+    height: auto;
+}
