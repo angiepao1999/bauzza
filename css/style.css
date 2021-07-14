@@ -229,3 +229,54 @@ ul{
     width: 67%;
     height: auto;
 }
+/* Final Inspiration ideas */
+
+/* Suscribe */
+
+.suscribe{
+    padding: 20px 30%;
+    
+}
+
+.table, td, th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+}
+
+.button5 {
+    background-color: #464159;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: #464159;
+    color:#fff;
+}
+/* Final Suscribe */
+
+/* Footer */
+
+.footer{
+    background-color: #E8ECF1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    justify-content: space-between;
+
+}
+
+.footer table{
+    margin-left:20%;
+    padding: 30px;
+}
