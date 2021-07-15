@@ -170,7 +170,7 @@ ul{
     text-align: center;
 }
 
-.deals h3{
+.deals h2{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;  
    
@@ -208,7 +208,7 @@ ul{
     text-align: center;  
 }
 
-.ideas h3{
+.ideas h2{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;    
 }
@@ -234,13 +234,12 @@ ul{
 /* Suscribe */
 
 .suscribe{
-    padding: 20px 30%;
-    
+    padding: 20px 30%;   
 }
 
 .table, td, th {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;    
+    font-size: 14px;    
 }
 
 .button5 {
@@ -273,10 +272,30 @@ ul{
     color: #000;
     text-align: left;
     justify-content: space-between;
-
 }
 
 .footer table{
     margin-left:20%;
     padding: 30px;
 }
+
+.footer table p {
+    font-size: 13px;
+    padding: 5px 0px;
+}
+
+.social-media a{
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.social-media p{
+    text-align: center;
+    padding: 5px;
+}
+/* Final Footer */
