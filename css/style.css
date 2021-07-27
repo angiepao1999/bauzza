@@ -1,7 +1,6 @@
 *{
     margin: 0;
 }
-
 /* menu */
 .container-general{
     background: linear-gradient(to right, #E7BC38 0%,#E7BC38 50%, #C68F11 50%,#C68F11 100%);   
@@ -151,6 +150,20 @@ ul{
 
 /* header-end */
 
+/* animations*/
+.animation{
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+  
+  @keyframes example {
+
+    0%   {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
+   
+}
 /* new in store section */
 .new{
     background-color: #F4F4F4;
