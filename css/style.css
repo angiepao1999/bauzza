@@ -150,20 +150,6 @@ ul{
 
 /* header-end */
 
-/* animations*/
-.animation{
-    position: relative;
-    animation-name: example;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
-}
-  
-  @keyframes example {
-
-    0%   {left:0px; top:100px;}
-    100% {left:0px; top:0px;}
-   
-}
 /* new in store section */
 .new{
     background-color: #F4F4F4;
@@ -273,6 +259,7 @@ ul{
     background-color: #464159;
     color:#fff;
 }
+
 /* Final Suscribe */
 
 /* Footer */
@@ -312,3 +299,23 @@ ul{
     padding: 5px;
 }
 /* Final Footer */
+
+
+/* animations*/
+#animation{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.showUp{
+    animation: showUp 1s;
+}
+ 
+@keyframes showUp  {
+    0% {
+        transform: translateY(60px);
+    }
+    100% {
+        transform: translateY(0);
+    }   
+}

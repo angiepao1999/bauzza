@@ -1,18 +1,18 @@
-document.addEventListener('scroll', function(){
-    let building = document.getElementById('building');
+(function(){
 
-    building.querySelectorAll("div").forEach(function(div){
-      let top = document.body.scrollTop;
-      let bottom = top + document.body.offsetHeight;
+let animation = document.querySelectorAll("#animation");
 
-      console.log("Top " + top)
-      console.log("Botton " + bottom)
-
-      if ((div.offsetTop < top && top < div.offsetTop + div.offsetHeight) ||
-          (div.offsetTop < bottom && bottom < div.offsetTop + div.offsetHeight)) {
-            div.classList.add('animation');
+function showScroll (){
+    let scrollTop = document.documentElement.scrollTop;
+    for( var i = 0; i < animation.length; i++){
+        let heigthAnimation= animation [i].offsetTop;
+        if( heigthAnimation - 400 < scrollTop){
+            animation[i].style.opacity = 1;
+            animation[i].classList.add("showUp")
         }
-    });
+    }
+}
 
-});
- 
+window.addEventListener('scroll', showScroll);
+
+}())
