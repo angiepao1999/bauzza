@@ -3,7 +3,7 @@
 }
 /* menu */
 .container-general{
-    background: linear-gradient(to right,#F4F4F4 20%, #F4F4F4 20% 40%, #2A4057  40% 60%, #2A4057 60% 80%, #2A4057  80%);
+    background: linear-gradient(to right,#F4F4F4 12%, #F4F4F4 12% 32%, #2A4057  32% 52%, #2A4057 52% 72%, #2A4057  72%);
 }
 
 ul{
@@ -50,7 +50,7 @@ ul{
 .container-header h2{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    margin: 5% 5px 0 15%;
+    margin: 5% 5px 0 8%;
     text-align: center;
     line-height : 50px;
     letter-spacing: 5px;   
@@ -59,7 +59,7 @@ ul{
 .container-header p{
     font-size:15px;
     font-family: 'Roboto', sans-serif;   
-    margin: 10px 5px 0 15%;
+    margin: 10px 5px 0 8%;
     text-align: center;
     line-height : 25px;
 }
@@ -81,7 +81,7 @@ ul{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 20px 5px 0 20%;
+    margin: 20px 5px 0 17%;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -97,4 +97,160 @@ ul{
 
 .socialmedia li{
     margin: 30px 0 30px 0;
+}
+
+
+/* Clearance Deals */
+.deals{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.deals h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;  
+   
+}
+.deals img{
+    width: 20%;
+    padding: 25px;   
+}
+
+.button4 {
+    background-color: white;
+    color: #464159;
+    border: 2px solid #464159;
+    border-radius: 4px;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button4:hover {
+    background-color: #464159;
+    color:#fff;
+}
+
+/* Inspiration ideas */
+
+.ideas{
+    padding: 50px 0px;
+    text-align: center;  
+}
+
+.ideas h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;    
+}
+
+.insp-img1{
+    width: 67%;
+    height: auto;
+}
+.insp-img2{
+    width: 30%;
+    height: auto;
+}
+.insp-img3{
+    width: 30%;
+    height: auto;
+}
+.insp-img4{
+    width: 67%;
+    height: auto;
+}
+/* Final Inspiration ideas */
+
+/* Suscribe */
+
+.suscribe{
+    padding: 20px 30%;   
+}
+
+.table, td, th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;    
+}
+
+.button5 {
+    background-color: #464159;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: #464159;
+    color:#fff;
+}
+
+/* Final Suscribe */
+
+/* Footer */
+
+.footer{
+    background-color: #E8ECF1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.footer table{
+    margin-left:20%;
+    padding: 30px;
+}
+
+.footer table p {
+    font-size: 13px;
+    padding: 5px 0px;
+}
+
+.social-media a{
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.social-media p{
+    text-align: center;
+    padding: 5px;
+}
+/* Final Footer */
+
+
+/* animations*/
+#animation{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.showUp{
+    animation: showUp 1s;
+}
+ 
+@keyframes showUp  {
+    0% {
+        transform: translateY(60px);
+    }
+    100% {
+        transform: translateY(0);
+    }   
 }
