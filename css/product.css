@@ -46,12 +46,6 @@ ul{
     padding-top: 10%;
     
 }
-.sel-chair{
-    width: 30%;
-    height: auto;  
-    float:left;
-    margin:10px 0 0 15%;
-}
 
 .container-header h2{
     font-family: 'Roboto', sans-serif;
@@ -60,6 +54,20 @@ ul{
     text-align: left;
     line-height : 50px;
     letter-spacing: 5px;   
+}
+.container-header h3{
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;   
+    margin: 10px 5px 10px 15%;
+    text-align: left;
+    line-height : 25px;
+}
+.container-header h3{
+    font-size:25px;
+    font-family: 'Roboto', sans-serif;   
+    margin: 10px 5px 10px 15%;
+    text-align: left;
+    line-height : 25px;
 }
 
 .container-header p{
@@ -70,33 +78,70 @@ ul{
     line-height : 25px;
 }
 
-.container-header h3{
-    font-size:15px;
-    font-family: 'Roboto', sans-serif;   
-    margin: 10px 5px 10px 15%;
-    text-align: left;
-    line-height : 25px;
+.sel-chair{
+    width: 35%;
+    height: auto;  
+    float:left;
+    margin:0 5% 0px 15%;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #E0D9D1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #E6E4E2;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+    background-color: #464159;
+    border-radius: 10px;
+    
 }
 
 .button {
-    background-color: #C68F11; 
+    background-color: #464159; 
     border: none;
     border-radius: 4px;
-    color: black;
-    padding: 10px 32px;
+    color: #fff;
+    padding: 10px 40px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 20px 5px 0 25%;
+    font-size: 14px;
+    margin: 4px 30px 0 0 ; 
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
   
 .button {
-    box-shadow: 0 3px 5px 0 #C68F11, 0 3px 5px 0 #C68F11;
+    box-shadow: 0 2px 2px 0 #464159, 0 2px 2px 0 #464159;
 }
+
+.button-add {
+    background-color: white;
+    color: #464159;
+    border: 2px solid #464159;
+    border-radius: 4px;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 
 .container-socialmedia{
     padding: 5% 0 1px 0;
