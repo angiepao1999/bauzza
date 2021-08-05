@@ -43,11 +43,19 @@ ul{
 
 /* header */
 .container-header{
-    padding-top: 10%;
-    
+    width: 100%;
+    height: auto;
+    padding-top: 10%;  
 }
 
-.container-header h2{
+.sel-chair{ 
+    width: 31%;
+    height: auto;
+    float:left;
+    margin:0 10% 0 15%;
+}
+
+.description h2{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin: 5% 0px 0px 20%;
@@ -55,22 +63,16 @@ ul{
     line-height : 50px;
     letter-spacing: 5px;   
 }
-.container-header h3{
+
+.description h3{
     font-size:25px;
     font-family: 'Roboto', sans-serif;   
-    margin: 10px 5px 10px 15%;
-    text-align: left;
-    line-height : 25px;
-}
-.container-header h3{
-    font-size:25px;
-    font-family: 'Roboto', sans-serif;   
-    margin: 10px 5px 10px 15%;
+    margin: 5px 5px 10px 15%;
     text-align: left;
     line-height : 25px;
 }
 
-.container-header p{
+.description p{
     font-size:15px;
     font-family: 'Roboto', sans-serif;   
     margin: 10px 5px 10px 20%;
@@ -78,12 +80,7 @@ ul{
     line-height : 25px;
 }
 
-.sel-chair{
-    width: 35%;
-    height: auto;  
-    float:left;
-    margin:0 5% 0px 15%;
-}
+
 .dot {
     height: 25px;
     width: 25px;
@@ -99,14 +96,7 @@ ul{
     border-radius: 50%;
     display: inline-block;
 }
-
-.square {
-    height: 40px;
-    width: 40px;
-    background-color: #464159;
-    border-radius: 10px;
-    
-}
+ 
 
 .button {
     background-color: #464159; 
@@ -147,7 +137,8 @@ ul{
     padding: 5% 0 1px 0;
 }
 
-.socialmedia li{
+.social-media li{
     margin: 30px 0 30px 0;
+   
 }
 
