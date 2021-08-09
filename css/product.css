@@ -49,10 +49,10 @@ ul{
 }
 
 .sel-chair{ 
-    width: 31%;
+    width: 26%;
     height: auto;
     float:left;
-    margin:0 10% 0 15%;
+    margin:0 15% 0 15%;
 }
 
 .description h2{
@@ -86,6 +86,7 @@ ul{
     width: 25px;
     background-color: #E0D9D1;
     border-radius: 50%;
+    border:0;
     display: inline-block;
 }
 
@@ -94,9 +95,16 @@ ul{
     width: 25px;
     background-color: #E6E4E2;
     border-radius: 50%;
+    border:0;
     display: inline-block;
 }
  
+.dot-select{
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    border:1px #000 solid;
+}
 
 .button {
     background-color: #464159; 
@@ -141,4 +149,100 @@ ul{
     margin: 30px 0 30px 0;
    
 }
+
+/* Description */
+.descriptions{
+    font-family: 'Libre Franklin', sans-serif;
+    width: 65%;
+    margin: auto;
+}
+
+/* similar */
+
+.similar-products{
+    background-color: #F4F4F4;
+    padding: 50px 0px; 
+    text-align: center;
+}
+
+.similar-products img{
+    margin:20px;
+    text-align: center;
+}
+
+.similar-products h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;    
+}
+
+/* Suscribe */
+
+.suscribe{
+    background-color: #F4F4F4;
+    padding: 20px 30%;   
+}
+
+.table, td, th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;    
+}
+
+.button5 {
+    background-color: #464159;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button5:hover {
+    background-color: #464159;
+    color:#fff;
+}
+
+/* Final Suscribe */
+
+/* Footer */
+
+.footer{
+    background-color: #E8ECF1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.footer table{
+    margin-left:20%;
+    padding: 30px;
+}
+
+.footer table p {
+    font-size: 13px;
+    padding: 5px 0px;
+}
+
+.social-media a{
+    padding: 10px;
+    text-align: center;
+}
+
+.social-media h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.social-media p{
+    text-align: center;
+    padding: 5px;
+}
+/* Final Footer */
 

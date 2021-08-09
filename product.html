@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500&display=swap" rel="stylesheet">
     <title>Sel Chair</title>
 </head>
 <body>
@@ -36,7 +39,7 @@
 
                 <div class="container-header">
                     <div class="self-chair">
-                        <img class="sel-chair" src="imgthree/Group 99.png" alt="">
+                        <img class="sel-chair" id="myImg" src="imgthree/sel-chair-first.png" alt="">
                     </div>
                     <div class="description">
                         <h2>SEL CHAIR</h2>
@@ -46,11 +49,11 @@
                         </p>
                         <table cellspacing="20">
                             <tr>
-                                <td> <span class="dot"> </span></td>
-                                <td><span class="dot2"> </span></td>
+                                <td class="dot-select"><button class="dot" onclick="changeImg()"></button></td>
+                                <td><button class="dot2" onclick="myFunction()"></button></td>
                                 <td><img src="imgthree/minus.png" alt=""></td>
                                 <td> 1 </td>
-                            <td><img src="imgthree/minus.png" alt=""></td>
+                            <td><img src="imgthree/plus.png" alt=""></td>
                             </tr>
                         </table>
                         
@@ -71,6 +74,180 @@
                 </div>
             </div>
     </header>
+    <section>
+        <!-- Description -->
+        <div class="descriptions">
+                <table cellspacing="20">
+                    <tr>
+                        <td>
+                            <table cellspacing="20">
+                                <tr>
+                                    <td>Height (cm)</td>
+                                    <td> 71</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Width (cm)</td>
+                                    <td>96</td>
+                                </tr>
+                               
+                                <tr>
+                                    <td>Depth (cm)</td>
+                                    <td>89</td>
+                                </tr> 
+
+                                <tr>
+                                    <td>Weight (kg)</td>
+                                    <td>31</td>
+                                </tr>
+                
+                                <tr>
+                                   <td>Arm dimensions (HWD)</td>
+                                    <td>71 x 14 x 54 cm</td>
+                                </tr>
+                               
+                                <tr>
+                                    <td>Leg height (cm)</td>
+                                    <td>20</td>
+                                </tr> 
+
+                                <tr>
+                                    <td>Packaging dimensions</td>
+                                    <td>1:57 x 121 x 90 cm</td>
+                                </tr>
+                
+                                <tr>
+                                   <td>Arm dimensions (HWD)</td>
+                                    <td>71 x 14 x 54 cm</td>
+                                </tr>
+                               
+                                <tr>
+                                    <td>Seat dimensions (HWD)</td>
+                                    <td>47 x 48 x 55 cm</td>
+                                </tr> 
+                 
+                            </table>
+                         </td>
+                         <td>
+                            <table cellspacing="35">
+                                <tr>
+                                    <td>Assembly</td>
+                                    <td>Legs to be fitted</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Fabric composition</td>
+                                    <td>100% Polyester</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Foam specification</td>  
+                                    <td>24 Kg/cbm/</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Foam type</td>
+                                    <td>Polyethylene</td>
+                                </tr>
+                
+                                <tr>
+                                    <td>Caring instructions</td>
+                                    <td>Professional cleaning only</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Filling type</td>  
+                                    <td>Foam</td>
+                                </tr>
+
+                                <tr>
+                                    <td>SKU</td>  
+                                    <td>CHAHLW0LIY</td>
+                                </tr>
+
+                            </table>
     
-</body>
+                         </td>
+                        </tr>
+                </table>
+             </td>
+            </tr>
+        </table>
+
+    </section>
+
+    <div id="animation">
+        <section class="similar-products">
+            <div>
+                <h2>SIMILAR PRODUCTS</h2>
+            </div>
+            <img class="insp-img1" src="imgthree/divine-chair.png" alt="">
+            <img class="insp-img2"src="imgthree/elegant-chair.png" alt="">
+            <img class="insp-img3"src="imgthree/white-chair.png" alt="">
+        </section>
+    </div>
+
+      <!--section4-->
+      <section class="suscribe">
+        <table cellspacing="20">
+            <tr>
+                <td> <h2>Subscribe to Bauzza via Email</h2>
+                <td> Write your email<hr width = 200>
+                <button class="button5">Suscribe</button>
+            </tr>
+        </table>
+    </section>
+
+</section>
+
+<footer>
+<div class="footer">
+<table cellspacing="20">
+    <tr>
+        <td> <h4>About us</h4>
+        <p>Our company</p>
+        <p>Our designers</p>
+        <p>Customer reviews</p>
+        <p>Diversity and Inclusion</p>
+        <p>Modern Slavery Act</p>
+        <p>Press HUB</p>
+        <p>Careers</p>
+        <p>Sale</p>
+        
+
+        <td> <h4>Shop by style</h4>
+        <p>Retro furniture</p>
+        <p>Scandinavian furniture</p>
+        <p>Modern furniture</p>
+        <p> Classic furniture</p>
+        <p>Industrial furniture</p>
+        <p>MAY Essentials furniture</p>
+
+        <td><h4>How can we help</h4>
+        <p>Tracking your order</p>
+        <p>Help & FAQs</p>
+        <p>Deliveries</p>
+        <p> Returns & Refunds</p>
+        <p>Industrial furniture</p>
+        <p>MAY Essentials furniture</p>
+
+
+        <td><a href="#"><img src="img/BAUZzA.png" alt=""></a>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f" style="color:black"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color:black"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color:black"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p" style="color:black"></i></a>
+            <p>Copyright 2021</p>
+        </div>
+
+    </tr>
+
+    
+</table>
+ </div>
+</footer>
+<script src="scripts/colorchange.js"></script>
+
+</body> 
 </html>
