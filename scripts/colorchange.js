@@ -8,7 +8,6 @@ function changeImg() {
 
 
 function myFunction() {
-    console.log(container.style);
     myImg.src = "imgthree/sel-chair-second.png";
     container.style.background = "linear-gradient(to right, #EAEAEA 0%,#EAEAEA 50%, #fff 50%,#fff 100%)"; 
 }

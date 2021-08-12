@@ -49,16 +49,25 @@
                         </p>
                         <table cellspacing="20">
                             <tr>
-                                <td> <div class="dot-select">
-                                        <button class="dot" onclick="changeImg()"></button>
+                                <td> 
+                                    <div class="dot-select" id="dot-1">
+                                        <button class="dot dot-color-white1" onclick="changeImg()"></button>
                                      </div>
                                 </td>
-                                <td> <div class="dot-select">
-                                        <button  class="dot2" onclick="myFunction()"></button></td>
+
+                                <td> 
+                                    <div id="dot-2">
+                                        <button class="dot dot-color-white2"  onclick="myFunction()"></button>
+                                    </div>
+                                </td>
+
+                                <td> 
+                                    <div class="container-button">
+                                            <input class="button-plus" type="button" onclick="decrementValue()" value="-" />
+                                            <input class="button-text" type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                                            <input class="button-plus" type="button" onclick="incrementValue()" value="+" />
                                      </div>
-                                    <td><img src="imgthree/minus.png" alt=""></td>
-                                <td> 1 </td>
-                            <td><img src="imgthree/plus.png" alt=""></td>
+                                </td>
                             </tr>
                         </table>
                         
@@ -253,6 +262,7 @@
  </div>
 </footer>
 <script src="scripts/colorchange.js"></script>
-<script src="scripts/botonchange.js"></script>
+<script src="scripts/buttonchange.js"></script>
+<script src="scripts/increment-decrement.js"></script>
 </body> 
 </html>
