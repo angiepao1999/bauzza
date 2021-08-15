@@ -88,9 +88,13 @@
                 </div>
             </div>
     </header>
-    <section>
+    
         <!-- Description -->
-        <div class="descriptions">
+        <div class="tab">
+            <button class="tablinks" onclick="propTabs(event, 'description')">Dimensions & Details</button>
+            <button class="tablinks" onclick="propTabs(event, 'reviews')">Reviews</button>
+        </div>
+            <div class="tabcontent">
                 <table cellspacing="20">
                     <tr>
                         <td>
@@ -183,10 +187,15 @@
     
                          </td>
                         </tr>
+                    </table>
+                    </td>
+                    </tr>
                 </table>
-             </td>
-            </tr>
-        </table>
+        </div>
+
+        <div class="tabcontent">
+            <p>Good</p> 
+        </div>
 
     </section>
 
@@ -264,5 +273,6 @@
 <script src="scripts/colorchange.js"></script>
 <script src="scripts/buttonchange.js"></script>
 <script src="scripts/increment-decrement.js"></script>
+<script src="scripts/tabs.js"></script>
 </body> 
 </html>

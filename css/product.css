@@ -170,11 +170,41 @@ ul{
 }
 
 /* Description */
-.descriptions{
-    font-family: 'Libre Franklin', sans-serif;
-    width: 65%;
-    margin: auto;
+.tab {
+    overflow: hidden;
+    background-color: #F4F4F4;
+    text-align: center;
+    padding-top:30px;  
 }
+
+.tabcontent{
+    background-color: #fff;
+    margin: 0 20%;
+    
+}
+  
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+}
+  
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+  
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
 
 /* similar */
 
