@@ -24,60 +24,63 @@
 </head>
 <body>
     <header>
-            <div class="container-general" id="container-general">
-                <div class="container-navbar" id="">
-                    <ul class="navbar-navbar" id="">
-                        <li><a href="#"><img src="img/BAUZzA.png" alt=""></a></li>
-                        <li class="first-group"><a href="/Users/paolacubillos/Documents/GitHub/bauzza/newcollection.html"><h3>New Collection</h3></a></li>
-                        <li><a href=""><h3>Category</h3></a></li>
-                        <li><a href=""><h3>Accesories</h3></a></li>
-                        <li class="second-group"><a href=""><img src="img/buscar.png" alt=""></a></li>
-                        <li><a href=""><img src="img/bag-1.png" alt=""></a></li>
-                        <li><a href=""><img src="img/Personal-icon.png" alt=""></a></li>
-                    </ul>
+        <div class="container-general">
+
+            <div class="topnav" id="myTopnav">
+                <a href="#"><img src="img/BAUZzA.png" alt=""></a>
+                <a href="#home">New Collection</a>
+                <a href="#news">Category</a>
+                <a href="#contact">Accesories</a>
+                <a href=""><img src="img/buscar.png" alt=""></a>
+                <a href=""><img src="img/bag-1.png" alt=""></a>
+                <a href=""><img src="img/Personal-icon.png" alt=""></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            
+            
+            <div class="container-header">
+                <div class="self-chair">
+                    <img class="sel-chair" id="myImg" src="imgthree/sel-chair-first.png" alt="">
                 </div>
 
-                <div class="container-header">
-                    <div class="self-chair">
-                        <img class="sel-chair" id="myImg" src="imgthree/sel-chair-first.png" alt="">
-                    </div>
-                    <div class="description">
-                        <h2>SEL CHAIR</h2>
-                        <h3>USD 120.00</h3>
-                        <p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br> has been the industry’s standard dummy.
-                            is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the industry’s standard <br>dummy.
-                        </p>
-                        <table cellspacing="20">
-                            <tr>
-                                <td> 
-                                    <div class="dot-select" id="dot-1">
-                                        <button class="dot dot-color-white1" onclick="changeImg()"></button>
-                                     </div>
-                                </td>
+                <div class="description">
 
-                                <td> 
-                                    <div id="dot-2">
-                                        <button class="dot dot-color-white2"  onclick="myFunction()"></button>
-                                    </div>
-                                </td>
+                    <h2>SEL CHAIR</h2>
+                    <h3>USD 120.00</h3>
+                    <p>Is simply dummy text of the printing and typesetting industry. Lorem Ipsum <br> has been the industry’s standard dummy.
+                        is simply dummy text of the printing<br> and typesetting industry. Lorem Ipsum has been the industry’s standard <br>dummy.
+                    </p>
+                    <table cellspacing="20">
+                        <tr>
+                            <td> 
+                                <div class="dot-select" id="dot-1">
+                                    <button class="dot dot-color-white1" onclick="changeImg()"></button>
+                                </div>
+                            </td>
 
-                                <td> 
-                                    <div class="container-button">
-                                            <input class="button-plus" type="button" onclick="decrementValue()" value="-" />
-                                            <input class="button-text" type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
-                                            <input class="button-plus" type="button" onclick="incrementValue()" value="+" />
-                                     </div>
-                                </td>
-                            </tr>
-                        </table>
+                            <td> 
+                                <div id="dot-2">
+                                    <button class="dot dot-color-white2"  onclick="changeImgTwo()"></button>
+                                </div>
+                            </td>
+
+                            <td> 
+                                <div class="container-button">
+                                    <input class="button-plus" type="button" onclick="decrementValue()" value="-" />
+                                    <input class="button-text" type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" />
+                                    <input class="button-plus" type="button" onclick="incrementValue()" value="+" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                         
-                        <button class="button" onclick="">Buy now</button>
-                        <button class="button-add" onclick="">Add to card</button>
+                    <button class="button" onclick="">Buy now</button>
+                    <button class="button-add" onclick="">Add to card</button>
 
-                    </div>
-                   
                 </div>
-               
+                
                 <div class="container-socialmedia" id="">
                     <ul class="social-media">
                         <li><a href="#"><i class="fab fa-facebook-f" style="color:black"></i></a></li>
@@ -87,13 +90,17 @@
                     </ul>
                 </div>
             </div>
+        </div>
     </header>
-    
+
+    <section>
         <!-- Description -->
         <div class="tab">
-            <button class="tablinks" onclick="propTabs(event, 'description')">Dimensions & Details</button>
-            <button class="tablinks" onclick="propTabs(event, 'reviews')">Reviews</button>
+            <button class="tablinks" onclick="propTabs(event, 0)">Dimensions & Details</button>
+            <button class="tablinks" onclick="propTabs(event,  1)">Reviews</button>
         </div>
+
+        <div id="tab-container">
             <div class="tabcontent">
                 <table cellspacing="20">
                     <tr>
@@ -145,8 +152,8 @@
                                 </tr> 
                  
                             </table>
-                         </td>
-                         <td>
+                        </td>
+                        <td>
                             <table cellspacing="35">
                                 <tr>
                                     <td>Assembly</td>
@@ -182,97 +189,91 @@
                                     <td>SKU</td>  
                                     <td>CHAHLW0LIY</td>
                                 </tr>
-
                             </table>
-    
-                         </td>
-                        </tr>
-                    </table>
-                    </td>
+                        </td>
                     </tr>
-                </table>
-        </div>
+                </table>       
+            </div>
 
-        <div class="tabcontent">
-            <p>Good</p> 
+            <div class="tabcontent">
+                <p>Good</p> 
+            </div>
         </div>
 
     </section>
 
-    <div id="animation">
-        <section class="similar-products">
-            <div>
-                <h2>SIMILAR PRODUCTS</h2>
-            </div>
-            <img class="insp-img1" src="imgthree/divine-chair.png" alt="">
-            <img class="insp-img2"src="imgthree/elegant-chair.png" alt="">
-            <img class="insp-img3"src="imgthree/white-chair.png" alt="">
-        </section>
-    </div>
+    <section>
+        <div id="animation">
+            <section class="similar-products">
+                <div>
+                    <h2>SIMILAR PRODUCTS</h2>
+                </div>
+                <img class="insp-img1" src="imgthree/divine-chair.png" alt="">
+                <img class="insp-img2"src="imgthree/elegant-chair.png" alt="">
+                <img class="insp-img3"src="imgthree/white-chair.png" alt="">
+            </section>
+        </div>
+    </section>
 
-      <!--section4-->
-      <section class="suscribe">
+    <!--section4-->
+    <section class="suscribe">
         <table cellspacing="20">
             <tr>
-                <td> <h2>Subscribe to Bauzza via Email</h2>
-                <td> Write your email<hr width = 200>
+                <td><h2>Subscribe to Bauzza via Email</h2>
+                <td>Write your email<hr width = 200>
                 <button class="button5">Suscribe</button>
             </tr>
         </table>
     </section>
 
-</section>
+    <footer>
+        <div class="footer">
+            <table cellspacing="20">
+                <tr>
+                    <td> <h4>About us</h4>
+                    <p>Our company</p>
+                    <p>Our designers</p>
+                    <p>Customer reviews</p>
+                    <p>Diversity and Inclusion</p>
+                    <p>Modern Slavery Act</p>
+                    <p>Press HUB</p>
+                    <p>Careers</p>
+                    <p>Sale</p>
+                    
 
-<footer>
-<div class="footer">
-<table cellspacing="20">
-    <tr>
-        <td> <h4>About us</h4>
-        <p>Our company</p>
-        <p>Our designers</p>
-        <p>Customer reviews</p>
-        <p>Diversity and Inclusion</p>
-        <p>Modern Slavery Act</p>
-        <p>Press HUB</p>
-        <p>Careers</p>
-        <p>Sale</p>
-        
+                    <td> <h4>Shop by style</h4>
+                    <p>Retro furniture</p>
+                    <p>Scandinavian furniture</p>
+                    <p>Modern furniture</p>
+                    <p> Classic furniture</p>
+                    <p>Industrial furniture</p>
+                    <p>MAY Essentials furniture</p>
 
-        <td> <h4>Shop by style</h4>
-        <p>Retro furniture</p>
-        <p>Scandinavian furniture</p>
-        <p>Modern furniture</p>
-        <p> Classic furniture</p>
-        <p>Industrial furniture</p>
-        <p>MAY Essentials furniture</p>
+                    <td><h4>How can we help</h4>
+                    <p>Tracking your order</p>
+                    <p>Help & FAQs</p>
+                    <p>Deliveries</p>
+                    <p> Returns & Refunds</p>
+                    <p>Industrial furniture</p>
+                    <p>MAY Essentials furniture</p>
 
-        <td><h4>How can we help</h4>
-        <p>Tracking your order</p>
-        <p>Help & FAQs</p>
-        <p>Deliveries</p>
-        <p> Returns & Refunds</p>
-        <p>Industrial furniture</p>
-        <p>MAY Essentials furniture</p>
-
-
-        <td><a href="#"><img src="img/BAUZzA.png" alt=""></a>
-        <div class="social-media">
-            <a href="#"><i class="fab fa-facebook-f" style="color:black"></i></a>
-            <a href="#"><i class="fab fa-instagram" style="color:black"></i></a>
-            <a href="#"><i class="fab fa-twitter" style="color:black"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p" style="color:black"></i></a>
-            <p>Copyright 2021</p>
+                    <td><a href="#"><img src="img/BAUZzA.png" alt=""></a>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-facebook-f" style="color:black"></i></a>
+                        <a href="#"><i class="fab fa-instagram" style="color:black"></i></a>
+                        <a href="#"><i class="fab fa-twitter" style="color:black"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p" style="color:black"></i></a>
+                        <p>Copyright 2021</p>
+                    </div>
+                </tr>
+            </table>
         </div>
+    </footer>
 
-    </tr>
-
-    
-</table>
- </div>
-</footer>
-<script src="scripts/colorchange.js"></script>
-<script src="scripts/buttonchange.js"></script>
-<script src="scripts/increment-decrement.js"></script>
-<script src="scripts/tabs.js"></script>
+    <script src="scripts/imgchange.js"></script>
+    <script src="scripts/buttonchange.js"></script>
+    <script src="scripts/increment-decrement.js"></script>
+    <script src="scripts/tabs.js"></script>
+    <script src="scripts/responsive.js"></script>
 </body> 
 </html>
