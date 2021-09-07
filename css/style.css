@@ -1,6 +1,57 @@
 *{
     margin: 0;
 }
+/* mobile menu */
+.menu-mobile{
+    float: left;
+    padding: 5px;
+}
+
+.sidepanel  {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    height: 23%;
+    background-color: #f4f4f4;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    color: #000000;
+    transition: 0.3s;
+}
+  
+.sidepanel a:hover {
+    color: #fff;
+}
+  
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+  
+.openbtn {
+    cursor: pointer;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color:#fff;
+}
+
 /* menu */
 .container-general{
     background: linear-gradient(to right, #E7BC38 0%,#E7BC38 50%, #C68F11 50%,#C68F11 100%);   

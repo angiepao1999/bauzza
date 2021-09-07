@@ -1,12 +1,22 @@
 let slideIndex = 1;
 
+
+if (window.outerWidth <= 700){
+    const slides = document.getElementsByClassName("mySlides");
+    for(let i = 0; i < slides.length; i++){
+        slides[i].hidden=true
+    }
+}
+
 function changeDesign(array, color){
     for(let i = 0; i < array.length; i++){
         array[i].style.color = color;
     }
 }
 
-showSlides(slideIndex);
+if (window.outerWidth >= 700){
+    showSlides(slideIndex);
+}
 
 function plusSlides(n){
     showSlides(slideIndex += n);    
